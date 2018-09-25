@@ -1,7 +1,8 @@
 # Homework for [Excelion](http://excelionit.com)
+
 A simple foreign exchange trading component in React, based on [create-react-app](https://github.com/facebook/create-react-app)
 
-![](http://cl.ly/39b2cfe5265d/excelion.fx.gif)
+![preview](http://cl.ly/39b2cfe5265d/excelion.fx.gif)
 
 # Storybook
 This component comes with [storybook](https://storybook.js.org). To run, type: `npm run storybook`
@@ -10,9 +11,7 @@ This component comes with [storybook](https://storybook.js.org). To run, type: `
 1. NodeJS
 2. NPM
 
-
-
-##To Run
+## To Run
 Run each of these in separate terminal window
 
 1. Server: `node server`
