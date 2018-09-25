@@ -5,7 +5,7 @@ import { shallow } from 'enzyme';
 import MaxAmount from './index.js';
 
 const renderComponent = (props = {}) => shallow(<MaxAmount {...props} />);
-const defaultRender = renderComponent({ onChange:()=>{} }).children().dive();
+const defaultRender = renderComponent({ onChange:()=>{} }).dive();
 
 describe('<MaxAmount />', () => {
 
@@ -20,7 +20,7 @@ describe('<MaxAmount />', () => {
 
   it('should render the value', () => {
     const value="£50M EUR";
-    expect(renderComponent({onChange:()=>{}, value:value}).children().dive().prop('value')).toBe(value);
+    expect(renderComponent({onChange:()=>{}, value:value}).dive().prop('value')).toBe(value);
   });
 
   it('should render readOnly="disabled"', () => {

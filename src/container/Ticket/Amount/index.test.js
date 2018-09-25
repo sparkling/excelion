@@ -6,7 +6,7 @@ import sinon from 'sinon';
 import Amount from './index.js';
 
 const renderComponent = (props = {}) => shallow(<Amount {...props} />);
-const defaultRender = renderComponent({onValueChange:()=>{}, value:123}).children().dive();
+const defaultRender = renderComponent({onValueChange:()=>{}, value:123}).dive();
 
 describe('<Amount />', () => {
   it('should render the same snapshot', () => {
@@ -24,7 +24,7 @@ describe('<Amount />', () => {
 
   it('should call onChange when selection is made', () => {
     const onValueChange = sinon.spy();
-    renderComponent({ onValueChange:onValueChange }).children().dive().simulate('valueChange');
+    renderComponent({ onValueChange:onValueChange }).dive().simulate('valueChange');
     expect(onValueChange.called).toBe(true);
   });
 });

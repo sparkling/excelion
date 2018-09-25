@@ -2,23 +2,22 @@
 
 exports[`<Amount /> should render the same snapshot 1`] = `
 .c0 {
-  width: 10em;
   font-size: 1em;
-  padding: 0.5em;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   text-align: center;
 }
 
-<form>
-  <input
-    className="c0"
-    name="amount"
-    onBlur={[Function]}
-    onChange={[Function]}
-    onFocus={[Function]}
-    onKeyDown={[Function]}
-    onMouseUp={[Function]}
-    type="text"
-    value=""
-  />
-</form>
+<input
+  className="c0"
+  name="amount"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onMouseUp={[Function]}
+  type="text"
+  value=""
+/>
 `;

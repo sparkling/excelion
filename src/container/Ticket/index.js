@@ -10,7 +10,7 @@ import { subscribeToRates, updateSubscription } from '../../api';
 import ConfirmationModal from './ConfirmationModal';
 
 const StyledTicket = styled.div `
-  width: 20em;
+  width: 21em;
 `
 
 const RateBoxes = styled.div `
