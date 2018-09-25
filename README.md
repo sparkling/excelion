@@ -2,7 +2,7 @@
 
 A simple foreign exchange trading component in React, based on [create-react-app](https://github.com/facebook/create-react-app)
 
-![preview](http://cl.ly/39b2cfe5265d/excelion.fx.gif)
+![preview](http://cl.ly/ec3664c15b7f/excelion.fx.gif)
 
 # Storybook
 This component comes with [storybook](https://storybook.js.org). To run, type: `npm run storybook`
