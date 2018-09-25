@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RateBox /> should render the same BUY snapshot 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  padding: 0.5em 0.75em;
+}
+
+.c1 > *:last-child {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c3 {
+  font-size: 0.8em;
+}
+
+.c2 {
+  font-size: 0.8em;
+}
+
+.c4 {
+  text-align: center;
+}
+
+.c5 {
+  font-size: 5em;
+}
+
+.c5:last-child {
+  font-size: 2em;
+}
+
+.c0 {
+  font-family: arial;
+  width: 10em;
+  color: white;
+  background-color: grey;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      BUY
+       
+      EUR
+    </div>
+    <div
+      className="c3"
+    >
+      1.40
+    </div>
+  </div>
+  <div
+    className="c4"
+  >
+    <span
+      className="c5"
+    >
+      8
+    </span>
+    <span
+      className="c5"
+    >
+      7
+    </span>
+    <span
+      className="c5"
+    >
+      2
+    </span>
+  </div>
+</div>
+`;
+
+exports[`<RateBox /> should render the same SELL snapshot 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0.5em 0.75em;
+}
+
+.c1 > *:first-child {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.c3 {
+  font-size: 0.8em;
+}
+
+.c2 {
+  font-size: 0.8em;
+}
+
+.c4 {
+  text-align: center;
+}
+
+.c5 {
+  font-size: 5em;
+}
+
+.c5:last-child {
+  font-size: 2em;
+}
+
+.c0 {
+  font-family: arial;
+  width: 10em;
+  color: white;
+  background-color: grey;
+}
+
+<div
+  className="c0"
+  onClick={[Function]}
+>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+    >
+      SELL
+       
+      EUR
+    </div>
+    <div
+      className="c3"
+    >
+      1.40
+    </div>
+  </div>
+  <div
+    className="c4"
+  >
+    <span
+      className="c5"
+    >
+      8
+    </span>
+    <span
+      className="c5"
+    >
+      7
+    </span>
+    <span
+      className="c5"
+    >
+      2
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaxAmount /> should render the same snapshot 1`] = `
+.c0 {
+  width: 6em;
+  font-size: 1em;
+  padding: 0.5em;
+  text-align: center;
+}
+
+<form>
+  <input
+    className="c0"
+    name="maxAmount"
+    readOnly="disabled"
+    type="text"
+    value={undefined}
+  />
+</form>
+`;
